@@ -1,0 +1,13 @@
+.logo {
+  display: inline-block;
+  width: 177px;
+  height: 42px;
+  background-image: url('/assets/logo.png');
+  background-size: 177px 42px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .logo {
+    background-image: url('/assets/logo@2x.png');
+  }
+}

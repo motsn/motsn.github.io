@@ -1,0 +1,49 @@
+.navbar {
+  margin-bottom: 5.0625em;
+  padding: 1em;
+  border-bottom: 3px solid #E6E6E6;
+  text-align: center;
+}
+
+nav ul {
+  margin: .296em 0 0;
+  padding: 0;
+  list-style: 0;
+}
+
+nav li {
+  margin: 0 .667em;
+  font-size: 1.07143em;
+  display: inline;
+}
+
+nav a {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media(min-width: 480px) {
+  .navbar {
+    text-align: left;
+    overflow: hidden;
+  }
+
+  nav {
+    float: right;
+  }
+
+  nav ul {
+    overflow: hidden;
+    margin: 12px 0 12px;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+  }
+
+  .logo {
+    float: left;
+  }
+}

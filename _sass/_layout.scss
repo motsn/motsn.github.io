@@ -1,0 +1,15 @@
+.container {
+  max-width: $main-max-width;
+  padding: 0 $main-gutter-width;
+  margin: 0 auto;
+}
+
+.site-footer {
+  margin-top: 2.66667em;
+  padding: 1em 0;
+  border-top: 3px solid;
+}
+
+.site-license {
+  font-size: 12px;
+}

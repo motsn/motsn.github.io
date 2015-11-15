@@ -1,0 +1,82 @@
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+figure img {
+  border: 1px solid #CCC;
+  color: #CCC;
+}
+
+figure h1,
+figure h2,
+figure h3,
+figure h4,
+figure h5,
+figure h6,
+figcaption {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: $main-content-width;
+}
+
+.figure-number {
+  display: block;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+.figure-id {
+  font-weight: 700;
+}
+
+figcaption + img {
+  margin-top: 3px;
+}
+
+img + figcaption {
+  margin-top: 3px;
+}
+
+// ===============
+// = Figure Grid =
+// ===============
+
+@media(min-width: 796px) {
+  .figure-grid {
+    &:before,
+    &:after {
+      clear: both;
+      display: table;
+      content: ' ';
+    }
+
+    figure {
+      float: left;
+      width: 50%;
+      margin: 0;
+      padding: 6px 12px;
+    }
+  }
+}
+
+// ============
+// = Breakout =
+// ============
+
+$breakout-width: 770px;
+$breakout-margin-horizontal: ($main-content-width - $breakout-width) / 2;
+
+@media(min-width: 796px) {
+  .breakout {
+    margin-right: $breakout-margin-horizontal;
+    margin-left: $breakout-margin-horizontal;
+  }
+}
