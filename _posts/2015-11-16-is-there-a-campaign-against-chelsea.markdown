@@ -31,7 +31,7 @@ However, it’d be wrong to conclude that any team lying above the line is mistr
   <h3>
     <span class="figure-number">Figure 1.</span> Avg. Fouls Committed vs. Avg. Booking Points <span class="subheading">covering matches in the 2014/15 and 2015/16 seasons so far</span>
   </h3>
-  <img src="/assets/is-there-a-campaign-against-chelsea/fig-1.png" data-uri="/fouls/vs_bookings?division=&start_season=22&end_season=23&highlight_teams[]=73&highlight_teams[]=79&highlight_teams[]=22&highlight_teams[]=89&highlight_teams[]=80&highlight_teams[]=94&highlight_teams[]=66&min_match_count=1">
+  <img alt="Figure 1. Avg. Fouls Committed vs. Avg. Booking Points covering matches in the 2014/15 and 2015/16 seasons so far" src="/assets/is-there-a-campaign-against-chelsea/fig-1.png" data-uri="/fouls/vs_bookings?division=&start_season=22&end_season=23&highlight_teams[]=73&highlight_teams[]=79&highlight_teams[]=22&highlight_teams[]=89&highlight_teams[]=80&highlight_teams[]=94&highlight_teams[]=66&min_match_count=1">
 </figure>
 
 ### Have Chelsea been unfairly treated since last season?
@@ -50,7 +50,7 @@ To attempt to draw more meaningful conclusions, we’ll examine the same stats s
   <h3>
     <span class="figure-number">Figure 2.</span> Avg. Fouls Committed vs. Avg. Booking Points <span class="subheading">for teams who have played more than 190 league matches since 2000/01</span>
   </h3>
-  <img src="/assets/is-there-a-campaign-against-chelsea/fig-2.png" data-uri="/fouls/vs_bookings?division=&start_season=8&end_season=23&highlight_teams[]=1&highlight_teams[]=6&highlight_teams[]=73&highlight_teams[]=15&highlight_teams[]=101&highlight_teams[]=18&highlight_teams[]=89&highlight_teams[]=40&highlight_teams[]=76&min_match_count=190">
+  <img alt="Figure 2. Avg. Fouls Committed vs. Avg. Booking Points for teams who have played more than 190 league matches since 2000/01" src="/assets/is-there-a-campaign-against-chelsea/fig-2.png" data-uri="/fouls/vs_bookings?division=&start_season=8&end_season=23&highlight_teams[]=1&highlight_teams[]=6&highlight_teams[]=73&highlight_teams[]=15&highlight_teams[]=101&highlight_teams[]=18&highlight_teams[]=89&highlight_teams[]=40&highlight_teams[]=76&min_match_count=190">
 </figure>
 
 As you can see in Figure 2, the correlation is much stronger. Chelsea are still up there, but not an outlier. From the current league teams, **Crewe** commit the fewest number of fouls on average (8.4/match), whereas **Millwall** are guilty of the most with 13.5/match (Boston are in the National League North; Chester City existed until 2010).
@@ -75,22 +75,22 @@ The r<sup>2</sup> values denote the strength of the trend, where 0 represents no
 <div class="figure-grid breakout">
   <figure>
     <figcaption><span class="figure-id">Figure 3a.</span> Premier League (r<sup>2</sup>: 0.20)</figcaption>
-    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3a-e0-annotated.png"><img src="/assets/is-there-a-campaign-against-chelsea/fig-3a-e0.png" data-uri="/fouls/vs_bookings?division=1&start_season=8&end_season=23&min_match_count=190"></a>
+    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3a-e0-annotated.png"><img alt="Figure 3a. Premier League (r-squared: 0.20)" src="/assets/is-there-a-campaign-against-chelsea/fig-3a-e0.png" data-uri="/fouls/vs_bookings?division=1&start_season=8&end_season=23&min_match_count=190"></a>
   </figure>
 
   <figure>
     <figcaption><span class="figure-id">Figure 3b.</span> Championship (r<sup>2</sup>: 0.45)</figcaption>
-    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3b-e1-annotated.png"><img src="/assets/is-there-a-campaign-against-chelsea/fig-3b-e1.png" data-uri="/fouls/vs_bookings?division=2&start_season=8&end_season=23&min_match_count=190"></a>
+    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3b-e1-annotated.png"><img alt="Figure 3b. Championship (r-squared: 0.45)" src="/assets/is-there-a-campaign-against-chelsea/fig-3b-e1.png" data-uri="/fouls/vs_bookings?division=2&start_season=8&end_season=23&min_match_count=190"></a>
   </figure>
 
   <figure>
     <figcaption><span class="figure-id">Figure 3c.</span> League One (r<sup>2</sup>: 0.62)</figcaption>
-    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3c-e2-annotated.png"><img src="/assets/is-there-a-campaign-against-chelsea/fig-3c-e2.png" data-uri="/fouls/vs_bookings?division=3&start_season=8&end_season=23&min_match_count=190"></a>
+    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3c-e2-annotated.png"><img alt="Figure 3c. League One (r-squared: 0.62)" src="/assets/is-there-a-campaign-against-chelsea/fig-3c-e2.png" data-uri="/fouls/vs_bookings?division=3&start_season=8&end_season=23&min_match_count=190"></a>
   </figure>
 
   <figure>
     <figcaption><span class="figure-id">Figure 3d.</span> League Two (r<sup>2</sup>: 0.55)</figcaption>
-    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3d-e3-annotated.png"><img src="/assets/is-there-a-campaign-against-chelsea/fig-3d-e3.png" data-uri="/fouls/vs_bookings?division=4&start_season=8&end_season=23&highlight_teams[]=1&highlight_teams[]=6&highlight_teams[]=101&highlight_teams[]=91&min_match_count=190"></a>
+    <a href="/assets/is-there-a-campaign-against-chelsea/fig-3d-e3-annotated.png"><img alt="Figure 3d. League Two (r-squared: 0.55)" src="/assets/is-there-a-campaign-against-chelsea/fig-3d-e3.png" data-uri="/fouls/vs_bookings?division=4&start_season=8&end_season=23&highlight_teams[]=1&highlight_teams[]=6&highlight_teams[]=101&highlight_teams[]=91&min_match_count=190"></a>
   </figure>
 </div>
 
