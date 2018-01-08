@@ -36,7 +36,7 @@ However, it’d be wrong to conclude that any team lying above the line is mistr
 
 ### Have Chelsea been unfairly treated since last season?
 
-First, we’ll look at the stats since last season (roughly the period in which Mourinho has been complaining As you can see from Figure 1, the relationship is  weak—likely due to the low number of matches each team has played. Nevertheless the graph shows that Chelsea, with an SR value of 2.4, are an outlier suggesting that they have indeed been unfairly treated. Mourinho may have a point.
+First, we’ll look at the stats since last season (roughly the period in which Mourinho has been complaining). As you can see from Figure 1, the relationship is  weak—likely due to the low number of matches each team has played. Nevertheless the graph shows that Chelsea, with an SR value of 2.4, are an outlier suggesting that they have indeed been unfairly treated. Mourinho may have a point.
 
 However if there is a Campaign Against Chelsea, then there’s a strong case for a **Campaign Against Sunderland**, too. With an SR of 3.2, Sunderland appear to have had the worst treatment during this period. They commit the same number of fouls as Leicester (11.6/match), yet they average 26.5 booking points per match—10 more than Leicester, and the equivalent of one yellow card more per match. Perhaps it’s no coincidence that Lee Cattermole received the joint-highest number of yellow cards in a Premier League season last year (14)<sup><a href="#footnote-4" id="footnote-4-link">[4]</a></sup>.
 
