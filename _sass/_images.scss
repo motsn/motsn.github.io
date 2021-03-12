@@ -8,7 +8,8 @@ figure {
   margin-bottom: 1.5em;
 }
 
-figure img {
+figure img,
+figure iframe {
   border: 1px solid #CCC;
   color: #CCC;
 }
@@ -76,8 +77,13 @@ $breakout-width: 770px;
 $breakout-margin-horizontal: ($main-content-width - $breakout-width) / 2;
 
 @media(min-width: 796px) {
-  .breakout {
+  .breakout,
+  .breakout-right {
     margin-right: $breakout-margin-horizontal;
+  }
+
+  .breakout,
+  .breakout-left {
     margin-left: $breakout-margin-horizontal;
   }
 }

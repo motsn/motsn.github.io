@@ -1,0 +1,85 @@
+table.results {
+  border-collapse: collapse;
+  width: 100%;
+
+  caption {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0.125em;
+  }
+
+  td {
+    padding: 0.125em .5em;
+    border-bottom: 3px solid white;
+  }
+
+  thead th {
+    border-top: 3px solid #ebebeb;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .date {
+    text-align: right;
+  }
+
+  .home-team,
+  .home-team-goals,
+  .points {
+    text-align: right;
+  }
+
+  .away-team,
+  .away-team-goals {
+    text-align: left;
+  }
+
+  .date,
+  .score,
+  .home-team-goals,
+  .away-team-goals,
+  .goals-separator {
+    width: 1px;
+    white-space: nowrap;
+  }
+
+  .goals-separator {
+    text-align: center;
+
+    &:before {
+      content: '-';
+    }
+  }
+
+  .result--win {
+    color: #238023;
+    background-color: #edf5ed;
+  }
+
+  .result--loss {
+    color: #d42626;
+    background-color: #fceeee;
+  }
+
+  .result--draw {
+    color: #5c5c5c;
+    background-color: #ebebeb;
+  }
+
+  tfoot th,
+  tfoot td {
+    border-bottom: 3px solid #ebebeb;
+  }
+
+  tfoot th {
+    text-align: left;
+  }
+
+  @media (min-width: 556px) {
+    width: auto;
+    float: right;
+    margin-left: 1em;
+  }
+}

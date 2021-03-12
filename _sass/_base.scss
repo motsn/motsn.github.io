@@ -27,14 +27,18 @@ img {
 ul, ol {
   margin: 1em 0;
   padding: 0;
-  padding-left: 1.5em;
+  list-style-position: inside;
 }
 
 ul {
-  list-style: square;
+  list-style-type: square;
 }
 
 sup {
   line-height: 1;
   font-size: 0.78571428571428571428em;
+}
+
+iframe {
+  border: 0;
 }
