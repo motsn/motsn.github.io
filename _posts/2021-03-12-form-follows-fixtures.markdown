@@ -2,9 +2,9 @@
 layout: post
 date: 2021-03-11
 title:  Form Follows Fixtures
-description: ""
-og_image:
-tags:
+description: "Do some teams have easier fixture sets  than others, and does that impact important league positions?"
+og_image: /assets/form-follows-fixtures/ofp-table.png
+tags: form
 ---
 
 Teams play eachother just twice in a season, which statistically speaking, may not be enough to determine whether one team is significantly better than another. Managers come-and-go, players get injured or are transferred, and along with countless other factors, mean that teams go in-and-out of form. Given the relatively small number of games played, is it possible that one team may have an easier set of fixtures than another? Could this have an impact on the final league standings?
